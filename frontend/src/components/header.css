@@ -1,0 +1,105 @@
+/* Supprime tout espace extérieur */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header global sans marge */
+.header {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: white;
+  color: #111827;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- BARRE BLEUE SUPÉRIEURE --- */
+.top-bar {
+  background-color: #0ea5e9;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 2rem;
+  font-size: 0.85rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* --- ENTÊTE PRINCIPALE --- */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1e40af;
+}
+
+.logo span {
+  color: #0ea5e9;
+}
+
+/* --- BARRE DE RECHERCHE --- */
+.main-header input[type="text"] {
+  flex: 1;
+  margin: 0 2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  font-size: 1rem;
+  background-color: #f9fafb;
+  transition: box-shadow 0.2s;
+}
+
+.main-header input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3b82f6;
+}
+
+/* --- LIENS ACTIONS (COMPTE, FAVORIS, PANIER) --- */
+.actions a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #111827;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.actions a:hover {
+  color: #0ea5e9;
+}
+
+/* --- NAVIGATION PRINCIPALE --- */
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.8rem 2rem;
+  background-color: #f9fafb;
+  font-size: 0.95rem;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-bar a:hover {
+  color: #0ea5e9;
+}
